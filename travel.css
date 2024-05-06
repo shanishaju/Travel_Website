@@ -1,69 +1,8 @@
-:root {
-    --textcolor: rgb(23, 159, 218);
-    --fontH: Playfair Display, serif;
-    --footer-color: #f9f9f9;
-
-
-}
-*{
-    font-family: "Jost", sans-serif;
-
-
-}
-hr{
-    width: 200px;
-    height: 9px;
-    background-color: rgb(17, 17, 128);
-
-
-}
-h1{
-    font-family: var(--fontH);
-    color: whitesmoke;
-    text-shadow: 2px 2px 5px var(--textcolor);
-}
-body {
-    overflow-x: hidden;
-  }
-.navbar-brand {
-    font-size: 90px;
-}
-#navbarNavDropdown{
-  margin-left: 600px;
-  font-size: 20px;
-}
-
-
-.nav-link{
-    font-family: var(--fontH);
-    color: black !important;
-}
-.nav-link:hover {
-    color: var(--textcolor) !important; 
-    border-radius: 10px;
-    border: 1px solid var(--textcolor);
-
-}
 
 
 
 
-.banner_main {
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    
-}
-.banner_main {
-    position: relative;
-  }
 
-.banner_heading{
-    color: white;
-    text-shadow: 2px 2px 5px var(--textcolor);
-}
 h1{
     color: black;
     text-shadow: 2px 2px 5px var(--textcolor); 
@@ -106,59 +45,13 @@ p{
     color: white;
 }
 .banner_text {
-    position: absolute;
-    z-index: 1;
-    /* margin-top: 300px; */
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    padding-top: 25px;
-    margin-top: 200px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
 
-}
-.banner_image {
-
-    text-align: center;
-    overflow: hidden;
     animation: rotate 10s linear infinite; 
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-.btn{
-    border-radius: 20px !important;
-    border: 1px solid var(--textcolor) !important;
-
-
-
-}
 .btn:hover{
     color: var(--textcolor) !important; 
-    background-color: white !important;
-    border-radius: 20px;
-    border: 1px solid var(--textcolor) !important;
-    
-}
-#blog{
-    margin-top: 200px;
-    margin-bottom: 100px;
-    width: auto;
-    height: 500px;
-    /* background-color: var(--textcolor); */
-}
-.blog-heading{
-    align-items: center;
+
     text-align: center;
     justify-content: center;
     padding-bottom: 90px !important;
@@ -167,11 +60,7 @@ p{
 .scrollspy-images{
     display: flex;
 }
-.scrollspy-image{
-    padding-left: 2px;
-}
-.scrollspy-button{
-    padding: 5px 9px;
+
     background-color: var(--textcolor);
     color: white;
     border-radius: 10px;
@@ -184,78 +73,12 @@ p{
     color: var(--textcolor);
 }
 
-/* remove scroolpy */
-/* --------------------------------------------------- */
-.scrollspy-example {
-    /* Set height to desired height */
-    height: 550px;
-    /* Hide scrollbar for Firefox */
-    scrollbar-width: none; 
-    /* Hide scrollbar for other browsers */
-    -ms-overflow-style: none; 
-  }
-/* ----------------------------------------------- */
-h2{
-    font-family: var(--fontH);
-
-}
-.scrollspy-bg{
-    background-image: url(./Media/full-shot-travel-concept-with-landmarks_23-2149153258.avif);
-    background-repeat: no-repeat;
-    width: 100%;
-    
-
-}
 
 
 .blog-bg{
     width: 100%;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.134);
-}
-
-/* seach area */
-
-/* styles.css */
-
-
-.search-text{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-top: 100px;
-}
- .search-container {
-    width: 690px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 400px;
-} 
-
-.search-input {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-
-    width: 700px;
-    height: 60px;
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 20px ;
-    outline: none;
-}
-.search-input:hover{
- border-color: var(--textcolor);
-}
-
-.search-area{
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
-.search-button {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    height: 45;
-    margin-left: -105px;
+    background-color: rpx;
     padding: 10px 20px;
     background-color: var(--textcolor);
     color: white;
@@ -405,51 +228,7 @@ footer{
     color: rgba(0, 0, 0, 0.678);
 }
 .form-sections{
-    margin-left: 200px;
-}
-.form-section label{
-    color: rgba(0, 0, 0, 0.678);
-    padding-top: 10px;
-
-}
-.form-section input{
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: rgba(23, 160, 218, 0.208);
-}
-.join-us{
-    display: flex;
-    margin-top: 250px;
-    
-
-}
-.modal-img{
-    padding-right: 600px;
-    width: 100px;
-    height: 100px;
-}
-
-.modal-text{
-    margin-top: 100px
-}
-
-@media (max-width: 780px) {
-    .search-text{
-        margin: 20px;
-        font-size: 5px;
-
-    } 
-    .search-list{
-        /* margin: 10px; */
-        /* padding-left: 10px; */
-        font-size: 20px;
-    }
-    .search-container{
-        margin: 0;
-        width: 10px;
-    }
-    .search-a{
-        margin-left: 10px;
+    marg
     }
     .search-input{
         width: 300px;
